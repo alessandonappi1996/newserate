@@ -3,10 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SerateComponent } from './pages/serate/serate.component';
+
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SerateComponent,
+    
   ],
   imports: [
     BrowserModule,
